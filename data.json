@@ -1,0 +1,19 @@
+[
+    {
+        "cpf": "123.456.789-00",
+        "status": "em dia",
+        "paymentDate": "01/12/2024",
+        "paymentMethod": "Cartão de Crédito"
+    },
+    {
+        "cpf": "987.654.321-00",
+        "status": "pendente",
+        "paymentDate": "",
+        "paymentMethod": ""
+    },
+    {    "cpf": "123.456.789-00",
+        "status": "em dia",
+        "paymentDate": "01/12/2024",
+        "paymentMethod": "Cartão de Crédito"
+    }
+]
