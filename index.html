@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de CPF</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Consulta de CPF</h1>
+        <form id="cpfForm">
+            <label for="cpfInput">Digite o CPF:</label>
+            <input type="text" id="cpfInput" placeholder="000.000.000-00" required>
+            <button type="submit" class="btn">Consultar</button>
+        </form>
+        <div id="result" class="hidden">
+            <h2>Resultado:</h2>
+            <p id="statusLabel">Status: <span></span></p>
+            <p id="paymentDate">Data do Pagamento: <span></span></p>
+            <p id="paymentMethod">Método de Pagamento: <span></span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
